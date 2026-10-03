@@ -1,0 +1,16 @@
+.env
+
+# Python and Jupyter-generated files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Model checkpoints and temporary model files
+*.pt
+src/checkpoints/
+src/model/temp_model.ipynb
+
+# Generated output and temporary files
+output_images/
+temp/
+*.log
